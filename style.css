@@ -1,0 +1,268 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+}
+
+main {
+  width: 270px;
+  height: auto;
+  background-color: hsl(216, 50%, 16%);
+  
+  border-radius: 8px; 
+}
+
+.image {
+  text-align: center;
+  margin-top: 20px;
+  
+  
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+
+
+.layer1 {
+ display: inline-block;
+ /* border: 1px solid #000; */
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  /* width: 100%;
+  height: 100%; */
+ margin: auto;
+ 
+ width: 95%;
+ border-radius: 8px;
+ cursor: pointer;
+}
+
+.layer1:hover {
+  background-color:  hsl(178, 100%, 60%);
+  height: 256px;
+  
+}
+
+ .layer1:hover img{
+ 
+opacity: 0.5;
+
+}
+
+#text {
+  width: 90%;
+  
+  margin: auto;
+}
+
+#text p, #time {
+  color: hsl(0, 0%, 50%);
+}
+
+#etherum {
+  color: hsl(177, 11%, 36%);
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: hsl(0, 0%, 100%);
+ 
+  width: 206px;
+}
+
+h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+  
+}
+
+p {
+  font-size: 15px;
+}
+
+
+ #time img{
+  width: 15px;
+}
+
+#etherum img {
+  width: 10px;
+}
+
+#info {
+  width: 95%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto; 
+  
+}
+
+#etherum p, #time p{
+  display: inline-flex;
+}
+
+#etherum {
+  margin-left: 6px;
+  
+}
+
+#etherum p, #time p {
+  font-size: 15px;
+}
+
+#time {
+  margin-right: 9px;
+}
+
+#line {
+  border-top: 1px solid hsl(215, 32%, 27%);
+  width: 90%;
+  margin: auto;
+  margin-top: -16px;
+  
+}
+
+/* #circle {
+  display: inline;
+  background-color: aliceblue;
+  border-radius: 50%;
+  height: 200px;
+  width: 800px;
+} */
+
+#avatar img {
+  width: 39px;
+  margin-left: 2.9px;
+  margin-top: 2px;
+  /* margin-bottom: 8.9px; */
+  position: relative;
+  z-index: 5;
+
+}
+
+#avatar {
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: -5px;
+  
+}
+span {
+  color:hsl(0, 0%, 100%);
+  margin-left: 6px;
+}
+
+span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+#avatar p {
+  display: inline-flex;
+  position: relative;
+  top: -15px;
+  left: 10px;
+  
+  color: hsl(0, 0%, 50%);
+  
+}
+
+/* .test {
+  width: 44px;
+  height: 44px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  top: -36px;
+  left: 23px;
+  
+
+} */
+
+.layer {
+ display: inline-block;
+  width: 43.9px;
+  height: 43px;
+  border-radius: 50%;
+  background-color:white;
+}
+
+
+@media only screen and (max-width: 1343px) {
+  .layer {
+    width:43.4px;
+    height: 43px;
+  }
+
+  #avatar img {
+    width: 39px;
+    margin-left: 2.4px;
+    margin-top: 2px;
+ 
+  
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  main {
+    width: 320px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  #info {
+    margin-top: 15px;
+  }
+
+  #info {
+    width: 90%;
+  }
+
+
+  
+  #line {
+    width: 85%;
+  }
+  
+  #etherum {
+    margin-left: 0px;
+  }
+
+  #time {
+    margin-right: 1px;
+  }
+
+ .test {
+   left: 25px;
+   top: -37px;
+ }
+
+ .layer1:hover {
+
+  height: 304px;
+  
+}
+
+}
+
